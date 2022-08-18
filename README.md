@@ -4,7 +4,7 @@
 
 To Run the App on Your System Follow the below steps.
 
-1) Your Sytem must Have Node.js Installed
+1) Your System must Have Node.js Installed
 
 2) Go To The Folder Path Where You Want To Clone the app
 
