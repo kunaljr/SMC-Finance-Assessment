@@ -10,6 +10,7 @@ import Checkout from './components/cards/Checkout';
 
 function App() {
 
+  //State Where the Card Item Data is Stored
   const [data, setData] = useState<Array<Object>>([
     {
       id:1,
@@ -27,9 +28,11 @@ function App() {
     }
   ])
 
+  //Function To Remove Item From the Cart
   const removeItem = (id:number) => {
     setData(data?.filter((data:any) => data?.id !== id))
   }
+
   return (
     <div className="App">
         {
@@ -73,7 +76,6 @@ function App() {
               </header>
           )
         }
-        
     </div>
   );
 }
